@@ -33,6 +33,7 @@ for cpu_model in "${cpu_models[@]}"; do
         mkdir -p m5out/output
         mv m5out/stats.txt m5out/output/${cpu_model}${clock_speed}${mem_type}stats.txt
         mv m5out/config.ini m5out/output/${cpu_model}${clock_speed}${mem_type}config.ini
+        echo $i done
       fi
     done
   done
