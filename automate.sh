@@ -2,7 +2,7 @@
 
 # Define arrays for CPU models, clock speeds, and memory types
 cpu_models=("X86TimingSimpleCPU" "X86MinorCPU")
-clock_speeds=("1000MHz" "1200MHz" "1400MHz" "1600MHz" "1800MHz" "2000MHz")
+clock_speeds=("1000MHz" "1200MHz" "1400MHz" "1600MHz" "1800MHz" "2000MHz" "2200MHz")
 memory_types=("DDR3_1600_8x8" "DDR3_2133_8x8" "LPDDR2_S4_1066_1x32")
 
 # Base command components
